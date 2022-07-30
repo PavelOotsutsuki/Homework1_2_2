@@ -12,12 +12,13 @@ namespace Homework1_2_2
         {
             bool endGame=false;
             string message;
+            string messageForExit = "exit";
 
             while (endGame==false)
             {
                 Console.Write("Введите сообщение: ");
                 message = Console.ReadLine();
-                if (message == "exit")
+                if (message == messageForExit)
                 {
                     endGame = true;
                 }
