@@ -18,6 +18,7 @@ namespace Homework1_2_2
             {
                 Console.Write("Введите сообщение: ");
                 message = Console.ReadLine();
+
                 if (message == messageForExit)
                 {
                     endGame = true;
